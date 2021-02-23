@@ -9,13 +9,13 @@ print(df.AveragePrice.head())
 albany_df = df[df['region'] == 'Albany']
 print(albany_df)
 print(albany_df.index)
-
+AveragePrice_df = df[df['AveragePrice']]
 
 
 def foo():
     return 5
 
-
+AveragePrice_df.head()
 
 
 
